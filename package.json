@@ -1,0 +1,30 @@
+{
+  "name": "tools-ecommerce-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application for ecommerce",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.10.7",
+    "@strapi/plugin-users-permissions": "4.10.7",
+    "@strapi/plugin-i18n": "4.10.7",
+    "pg": "8.8.0"
+  },
+  "author": {
+    "name": "João Vitor"
+  },
+  "strapi": {
+    "uuid": "3f2bef3e-cbd9-47c2-a5ea-ce3ff0e6add7"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
